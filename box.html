@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Box</title>
+  <link rel="stylesheet" href="stylees.css">
+</head>
+<body>
+
+  <div class="item-box" id="item-box">
+    <div class="heading-container">
+      <h2 class="heading">YAY! It's BOGO</h2>
+    </div>
+    
+    <div class="item-info" id="hid" onclick="showOptions('product1')" > 
+       <div class="contents">
+            <label class="inl">
+                <input type="radio" class="radio-btn" id="product1"  name="product" value="product1" onclick="showOptions('product1')" />
+           <span class="items">1 Unit <p class="dis" style="color: white; font-size: 15px;margin-left: 5px; padding: 3px;">10% off</p></span>
+        <span class="prices">&emsp; Standard Price</span>
+           </label>
+        <p id="item-price">
+        <span class="new-price"> $10.00 USD</span>
+        <span class="old-price">$24.00 USD</span>
+    </p>
+   </div>
+
+    <div class="options" id="options-product1">
+        <div class="form-group">
+        <label for="siz" class="mys">Size
+            <label for="mySelect" style="display:inline-block">#1
+             <select id="mySelect" name="options">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+      </label>
+        <label for="mySelect" style="display:inline-block;">#2
+          <select id="mySelect" name="options">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+      </label>
+    </label>
+        <label for="colord" class="mys">Color
+        <select id="colorSelect" name="colors">
+          <option value="black">Black</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+        <select id="colorSelect" name="colors">
+          <option value="black">Black</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </label>
+      </div>
+    </div>
+                
+   
+      
+    </div>
+    <div class="item-info" id="hid" onclick="showOptions('product2')" > 
+      <div class="popular-label">Most Popular</div>
+        <div class="contents">
+            <label>
+                <input type="radio" id="product2" class="radio-btn" name="product" value="product2" onclick="showOptions('product2')" />
+                <span class="items">2 Unit <p class="dis" style="color: white; font-size: 15px;margin-left: 5px; padding: 3px;">20% off</p></span>
+        
+            </label>
+            <p id="item-price">
+       
+              <span class="new-price"> $18.00 USD</span>
+              <span class="old-price">$24.00 USD</span>
+          </p>
+     </div>
+  
+     <div class="options" id="options-product2">
+      <div class="form-group">
+        <label for="sssaa" class="mys">Size
+            <label for="mySelect" style="display:inline-block"> #1
+             <select id="mySelect" name="options">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+      </label>
+        <label for="mySelect" style="display:inline-block;">#2
+          <select id="mySelect" name="options">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+      </label>
+    </label>
+        <label for="asj" class="mys">Color
+        <select id="colorSelect" name="colors">
+          <option value="black">Black</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+        <select id="colorSelect" name="colors">
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </label>
+      </div>
+    </div>
+  </div>
+  <div class="item-info" id="hid" onclick="showOptions('product3')" > 
+        <div class="contents"> 
+            <label>
+                <input type="radio" class="radio-btn" id="product3" name="product" value="product3" onclick="showOptions('product3')" />
+                <span class="items">3 Unit <p class="dis" style="color: white; font-size: 15px;margin-left: 5px; padding: 3px;">30% off</p></span>
+          </label>
+            <p id="item-price">
+              <span class="new-price"> $24.00 USD</span>
+              <span class="old-price">$24.00 USD</span>
+          </p>
+        </div>
+     <div class="options" id="options-product3" >
+        <div class="form-group">
+          <label for="sssaa" class="mys">Size
+              <label for="mySelect" style="display:inline-block"> #1
+               <select id="mySelect" name="options">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+        </label>
+          <label for="mySelect" style="display:inline-block;">#2
+            <select id="mySelect" name="options">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+        </label>
+      </label>
+          <label for="asj" class="mys">Color
+          <select id="colorSelect" name="colors">
+            <option value="black">Black</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+          </select>
+          <select id="colorSelect" name="colors">
+            <option value="black">Black</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+          </select>
+        </label>
+        </div>
+      </div>
+        
+      </div>
+      <div class="bottomdata">
+      <p style="color: #FF6B82;">Free Delivery</p>
+      <p >Total: $18.00 USD</p>
+      </div>
+    <button class="add-to-cart-btn"> + &nbsp; Add to Cart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
